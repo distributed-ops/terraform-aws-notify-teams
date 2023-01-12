@@ -20,7 +20,7 @@ output "notify_teams_lambda_function_arn" {
 
 output "notify_teams_lambda_function_name" {
   description = "The name of the Lambda function"
-  value       = module.lambda.this_lambda_function_name
+  value       = module.lambda.lambda_function_name
 }
 
 output "notify_teams_lambda_function_invoke_arn" {
